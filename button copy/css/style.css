@@ -1,0 +1,59 @@
+Body {
+  margin-top: 5;
+  margin-right: 10;
+  margin-left: 10;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title {
+  color: rgb(0, 0, 0);
+  position: relitive;
+  /* or absolute */
+  left: 50%;
+  top: -30px;
+  font-size: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  position: fixed;
+  /* or absolute */
+  color: black;
+  top: 160px;
+  left: 50px;
+  font-size: 25px;
+}
+
+.contact-btn {
+  color: #9fcece;
+}
+
+.contact-btn a {
+  position: relative;
+  cursor: pointer;
+  margin-right: 30px;
+  padding: 8px 18px;
+  top: 300px;
+  left: -400px;
+  border: 3px solid #9fcece;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-btn a:active {
+  top: 310px;
+  
+  
+}
+
+.trolol {
+  position: fixed;
+  top: 230px;
+  left: 20px;
+  width: 500%;
+}
